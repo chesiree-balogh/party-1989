@@ -9,4 +9,78 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: black;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer {
+  color: whitesmoke;
+}
+header,
+footer {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+ul.movies li {
+  padding: 2rem 4rem;
+  border-top: 4px solid whitesmoke;
+  border-bottom: 4px solid whitesmoke;
+}
+
+.movie-image-and-caption {
+  display: flex;
+}
+
+.movie-image-and-caption p {
+  padding: 0 2rem;
+  max-width: 20rem;
+  font-size: 1rem;
+  font-style: italic;
+  /* color: rgb(108, 44, 172); */
+}
+
+.overview {
+  font-size: 0.8rem;
+}
+
+.movieTitle {
+  color: black;
+}
+
+header {
+  color: whitesmoke;
+}
+
+/* ul li:nth-child(odd) {
+  background-color: red;
+}
+
+ul li:nth-child(even) {
+  background-color: green;
+} */
+ul li:nth-child(4n + 0) {
+  background-color: rgb(248, 238, 130);
+  color: rgb(140, 33, 218);
+}
+
+ul li:nth-child(4n + 1) {
+  background-color: rgb(24, 228, 231);
+  color: rgb(248, 238, 130);
+}
+
+ul li:nth-child(4n + 2) {
+  background-color: rgb(255, 0, 225);
+  color: rgb(24, 228, 231);
+}
+
+ul li:nth-child(4n + 3) {
+  background-color: rgb(140, 33, 218);
+  color: rgb(255, 0, 225);
 }
